@@ -1,0 +1,20 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS metadata
+.DS_Store
+Thumbs.db
+
+# Large or non-essential artifacts
+*.pdf
+*.zip
+*.tar
+*.tar.gz
+
+# Data dumps (keep only curated datasets like ozone.csv)
+data/**
+!ozone.csv
